@@ -24,10 +24,10 @@ const getImage = async function () {
     img.src = imageAddress;
     imgDiv.classList.remove("hide");
   };
-  
   button.addEventListener("click", function (const res = await fetch("https://picsum.photos/v2/list?limit=100");
-  const images = await res.json();
-  selectRandomImage(images) {
-    getImage();
-  });
+const images = await res.json();
+selectRandomImage(images) {
+  getImage();
+});
+
   
